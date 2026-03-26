@@ -1,0 +1,78 @@
+/*Journal 1 CSS */
+*{
+	font-family: Comic sans MS;
+	
+}
+body{
+	background-color:#ffffff;
+	 font-size: 23px;
+	margin: 0px;
+	padding: 8px;
+}
+b{
+	display:flex;
+	justify-content: center;
+	font-size:130%
+}
+b,strong,h1,h3{
+	color:#136cfb;
+}
+img{
+	float: center;
+}
+
+u{
+ color:#136cfb;
+}
+h1{
+   display: flex;
+text-align: center;
+   font-size:130px;
+}
+#copy{
+	opacity: 40%
+}
+.input-comments{
+	height: 250px;
+	width: 450px;
+	border-radius:10px;
+}
+a{
+	color:#000000;
+	text-decoration: none;
+}
+
+ul{
+	display:flex;
+	justify-content:right;
+	padding:10px;
+	grid-gap: 7vh;
+	color:transparent;
+}
+a:hover{
+	color:#177fff;
+}
+h1{
+	background: url(medical-background-cjge7e89adg6ub8x.jpg)no-repeat fixed;
+}
+.sub-heading:hover{
+	text-decoration:12px dotted underline;
+	transition: 2s ease;
+	color :#000000;
+}
+#button{
+	width: 400px;
+	height:6vh;
+	color:#ffffff;
+	background:#144fff;
+	outline:none;
+	border:none;
+	border-radius: 8px;
+	margin: 6px;
+	cursor: pointer;
+	font-weight: 60000;
+}
+#button:hover{
+	color: black;
+	transition: 2.1s ease;
+}

@@ -1,0 +1,48 @@
+/*My About-Page's CSS*/
+h1,h2{
+	font-size:240%;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Comic sans MS;
+	color:#136fbc;
+}
+*{
+	background-color:#ffff;
+	color:#000000;
+	font-family: Comic sans MS;
+	font-size:22px;
+	
+}
+img{
+	border-radius:12px;
+}
+#me{
+	width:626px;
+	height:418px;
+	float:left;
+	padding:10px;
+}
+#me:hover{
+	display:flex;
+	flex-wrap: wrap;
+	transition: 2s ease;
+	transform: scale(1.2);
+}
+body{
+	margin:0px;
+	padding:10px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:#136cfb;
+	transition: 1.8s ease;
+}
+b{
+	color: #136cfb;
+}
+footer{
+	opacity:40%;
+	text-align: center;
+}

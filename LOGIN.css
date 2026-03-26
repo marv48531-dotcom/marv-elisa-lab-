@@ -1,0 +1,103 @@
+/*My Login-page's CSS*/
+*{
+	box-sizing:border-box;
+	font-family: Comic sans MS;
+}
+h2{
+	text-align:center;
+	font-size:40px;
+	color:#136fbc;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	background:#ffff;
+	flex-direction: column;
+	background: url(black-and-white-human-heart-hd-medical-we31xzxdohwrp24b.jpg)fixed;
+	background-size: 1400px;
+	background-position: center;
+}
+.container,.user{
+	width: 500px;
+	height: 86vh;
+	background:transparent;
+	padding:10px;
+	border-radius:10px;
+	outline:none;
+	border: 4px solid rgba(220,220,220,.6);
+	margin:20px 0;
+	box-shadow: 100px #a3a3a3a3;
+}
+.user{
+	width: 100%;
+	height: 50px;
+	background:transparent;
+	border: none;
+	outline: none;
+	border:2px solid rgba(225,225,225,.4);
+	border-radius: 10px;
+	font-size:18px;
+	color:black;
+	line-height: 200px;
+}
+#button{
+	width: 100%;
+	height:48px;
+	border:none;
+	outline:none;
+	border-radius:12px;
+	background: #136cfb;
+	color:white;
+	font-size:18px;
+	font-weight:900;
+	cursor:pointer;
+	padding:10px;
+}
+a{
+	color:#136fbc;
+	text-decoration: none;
+	justify-content:  center;
+	display: flex;
+
+}
+.create{
+	width:100%;
+	height:48px;
+	border:none;
+	outline:none;
+	border-radius: 12px;
+	background:#02970c;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+	padding:10px;
+}
+.skip{
+	width:100%;
+	height:46px;
+	border:none;
+	outline: none;
+	border-radius: 12px;
+	background:#ffffff;
+	color:#136fbc;
+	font-weight: 700;
+	font-size: 18px;
+	cursor: pointer;
+}
+.f:hover{
+	color:#000000;
+}
+.c:hover{
+	color: #000000;
+}
+nav{
+    display:flex;
+    grid-gap: 120px;
+    justify-content: center;
+}
+#copy{
+	opacity: 46%;
+}

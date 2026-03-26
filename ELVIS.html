@@ -1,0 +1,93 @@
+<!--My Signup-page-->
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="Viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>Sign-Up|StudentMedbook</title>
+
+<link rel="icon" type="image/png" href="Student Medbook.png">
+
+	<link rel="stylesheet" type="text/css" href="ELVIS.css">
+</head>
+<body>
+	<br>
+	<main>
+		<wbr><div>
+	<h1><center><b>Sign In To Register</b></center></h1>
+
+		<div class='container'><h4><strong>Signup</strong></h4>
+			<form action="Dr Marvel Work.html">
+<label for="fname"></label><div><input autocomplete="name" type="text" placeholder="Enter Firstname" class="name" id="fname" name="fname" required>
+
+<label for="mname"></label><div><input autocomplete="name" type="text" placeholder="Enter Middlename" class="name" id="mname" name="mname" required>
+
+	<label for="lname"></label><div><input autocomplete="name" type="text" placeholder="Enter Lastname" class="name" id="lname" name="lname" required>
+
+<br>Gender<br><div>
+Male<input type="radio" name="Male"required>
+Female<input type="radio" name="Male"required>
+Others<input type="radio" name="Male"required>
+
+<div><input type="date" class="input" required></div>
+
+<div><input type='password' placeholder='Enter Password' class='input' id="pword" required></div>
+
+<div><input type="tel" class='it' id="phone" placeholder="Phone number" required></div>
+
+<div><label for="country" style="opacity:40%;">Choose Your Place Of Origin</label>
+<br>
+	<select name="country"
+	id="Country" required>
+	<option value="please select">
+		Please Select
+	</option>
+	<option value="new delhi,india">
+	New Delhi, India	
+	</option>
+	<option value="kiev,ukraine">
+	Kiev, Ukraine	
+	</option>
+	<option 
+	value="madrid,spain">Madrid, Spain</option>
+		<option 
+	value="london,united kingdom">London, United Kingdom</option>
+			<option 
+	value="tokyo,japan">Tokyo, Japan</option>
+		<option 
+	value="seoul, south korea">Seoul, South Korea</option>
+		<option 
+	value="shanghai, china">Shanghai, PRC</option>
+		<option 
+	value="united states">Washington DC, United States</option>
+		<option 
+	value="nigeria">Abuja, Nigeria</option>
+	<option value="kingston,jamaica">
+		Kingston, Jamaica
+	</option>
+	<option value="cape-town,south africa">Capetown, South Africa</option>
+	<option value="UAE">Dubai, UAE</option>
+</select></div>
+
+<div><input type='email' placeholder='Input Email' class='input' id="email" required></div>
+
+<div><input type='password' placeholder='Confirm Password' class='input' id="pass" required></div>
+
+<div><button class='i' required>SignUp</button></div>
+		<br><input type="button" value="Already Have An Account ?" class="already" onclick="getConfirmation()"></p>
+<br><a href="Dr_Marvel's Work.html" class="c">Cancel</a></div></div>
+</form></main>
+<footer>
+
+	<script type="text/javascript">
+		function getConfirmation(){
+			var retval = confirm('Already Have An Account ?, Please, click OK To Login ');
+			if(retval==true){
+				window.open(' LOGIN.html');
+				return true;
+			}else{
+				document.write('<h1/><center/Please Sign Up To Continue !!');
+				return false;
+			}
+		}
+	</script>
+</footer>
