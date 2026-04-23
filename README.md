@@ -1,23 +1,25 @@
-# marv-elisa-lab-
-"Official archive for the MARV-ELISA project: Bridging Medical Science and Web Development."
+# 🩺 Student Medbook: Interactive Medical Learning Platform
 
+A comprehensive, full-stack web application designed for medical students and lab technicians to access structured study materials, diagrams, and medical charts. This project demonstrates my ability to build secure, content-heavy applications with a focus on educational UI/UX.
 
-
-
-# 🧬 MARV-ELISA Lab Project
-
-Welcome to the **MARV-ELISA** digital laboratory! This project is a fusion of medical laboratory science aesthetics and modern web development.
-
-## 🧪 Project Overview
-This repository hosts the official web interface for the MARV-ELISA project, designed to bridge the gap between clinical precision and creative technology.
+## 🚀 Features
+* **User Authentication:** Fully functional Login and Signup system to manage student access.
+* **Interactive Study Modules:** Organized sections for Anatomy, Physiology, and Laboratory Science.
+* **Data Visualization:** Custom-built tables and charts (e.g., Endocrine System/Hormone tables) for easy data digestion.
+* **Responsive Design:** Optimized for both desktop and mobile learning.
+* **Clean Navigation:** Intuitive UI allowing students to jump between complex medical topics seamlessly.
 
 ## 🛠️ Tech Stack
-* **HTML5:** Structuring the lab data and interface.
-* **CSS3:** Custom styling for a clean, professional medical aesthetic.
-* **GitHub Pages:** Global hosting and deployment.
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+* **Logic:** Custom JavaScript for authentication flow and dynamic content rendering.
+* **Styling:** Modern CSS including Flexbox for responsive layouts.
 
-## 🚀 Vision
-Building technical foundations today to innovate in the global healthcare and technology sectors tomorrow. From Nigeria to the world!
+## 🧪 The "Lab Tech" Edge
+As a Laboratory Technician, I built this project to solve a specific problem: making complex medical data accessible. This project showcases my ability to:
+1.  Translate complex biological data into clean code.
+2.  Maintain high attention to detail (critical in both lab work and debugging).
+3.  Build tools for the healthcare and education sectors.
 
----
-*Created by a developer with a passion for precision and code.* 🦾💻✨
+## 📬 Contact
+Looking for a developer who understands the medical/biological field? Let's connect!
+* **GitHub:** [https://marv48531-dotcom.github.io/marv-elisa-lab-/index.html]
